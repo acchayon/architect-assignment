@@ -1,0 +1,421 @@
+/* ----- font link ------- */
+
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Inter&family=Open+Sans&family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch+Sans:wght@100&family=Supermercado+One&family=Tiro+Devanagari+Hindi:ital@0;1&family=Work+Sans&display=swap');
+
+/* ------------
+    common & utilities css part 
+    -----------*/
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    margin: 0;
+}
+.title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* header section css */
+.header-section, .quick-list-section{
+    margin: 60px 200px 100px;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.header-menu nav ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.header-menu nav ul li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: #424242;
+}
+
+/* ------------------
+ banner section
+ --------------------  
+*/
+.banner-section{
+    margin: 100px 200px 60px;
+
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-around;
+}
+.banner-info{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 600;
+    font-size: 60px;
+    color: #131313;
+    text-align: center;
+}
+.banner-paragraph{
+    margin: 30px 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+}
+.banner-img img{
+    width: 1000px;
+}
+
+/* -----------------
+  Quick list  section design
+  ------------------- */
+.quick, .quick-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.quick-info{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content: space-evenly;
+}
+.quick-img img{
+    width: 90%;
+    margin: 0 15px 15px 0;
+    border-radius: 5px;
+}
+.quick-title{
+    font-weight: 500;
+    font-size: 45px;
+}
+.quick-title .thin{
+    color: #727272;
+}    
+.quick-title .strong{
+    color: #131313;
+    font-weight: 900;
+}
+.quick-title .color{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+.quick-paragraph{
+    font-size: 16px;
+    color: #727272;
+}
+
+/* ------------
+  Featured section
+  -------------- */
+.featured-section{
+    margin: 100px 120px;
+}
+.featured{
+    display: flex;
+    
+}
+.featured-detail{
+    width: 50%;
+    padding: 10px 15px;
+}
+.featured-img{
+    width: 50%;
+}
+.featured-img img{
+   width: 100%;
+   height: 90%;
+   object-fit: cover;
+}
+.featured-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    position: relative;
+    left: 10px;
+}
+.featured-paragraph{
+    margin-top: 25px;
+    font-size: 16px;
+    color: #727272;
+}
+.vl{
+    position: absolute;
+    
+}
+.feature-product{
+    
+}
+.feature{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 7px rgba(97, 92, 92, 0.22);;
+}
+.f-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.f-para{
+    color: #727272;
+}
+.btn{
+    width: 330px;
+    height: 140px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 40px 0 40px;
+    margin-top: -80px;
+}
+.btn span{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/* -------------
+some fact section
+---------------*/
+.some-fact{
+    margin: 100px 150px;
+}
+.some-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.some-para{
+    font-size: 16px;
+    color: #727272;
+}
+
+/* ----------- skill section ------------ */
+.skill-section{
+    margin: 50px 150px;
+}
+.skills{
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}
+.skill-item{
+    border: 1px solid #FF900E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.skill-item img{
+    height: 45px;
+    width: 45px;
+    margin-top: 20px;
+}
+.skill-item .number{
+    font-weight: 600;
+    font-size: 35px;
+    color: #424242;
+    margin: 10px 0 15px 0;
+}
+.skill-item .skill-p{
+    font-size: 16px;
+    color: #727272;
+
+}
+/* --- ---- ------   sponsor section --- ---- ----- */
+.sponsor-section{
+    margin: 100px 200px;
+}
+.sponsor-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponsor-para{
+    color: #727272;
+    margin-top: 20px;
+
+}
+.sponsors-logo{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+.sponsors-log0 .s-img img{
+    width: 50%;
+}
+/* bonus section css
+-----------------   Form section ---------- */
+.form-section{
+    margin: 100px 310px;
+    box-sizing: border-box;
+    background: #FFF4D6;
+    gap: 0px;
+
+}
+.form{
+    padding: 76px 200px;
+}
+#u-name{
+    padding: 14px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #AA9F9F;
+}
+.btn-here{
+    padding: 17px 15px;
+    border: 0;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+}
+/* --------------
+ Footer section design 
+ -----------------*/
+ .footer-section{
+    margin: 130px;
+ }
+ .footer{
+    background-color: #FFF4E7;
+    
+ }
+.footer-p{
+    padding: 30px 200px;
+    font-size: 20px;
+    color: #424242;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .header-section, .quick-list-section{
+        margin: 60px 0px 100px;
+    }
+    .header{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* width: 100%; */
+        justify-content: space-around;
+    }
+    .header .title{
+        text-align: center;
+    }
+    .header-menu nav ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-around;
+        justify-items: center; 
+    }
+    .header-menu nav ul li{
+        margin-top: 15px;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+
+    .quick{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .quick-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        height: 80%;
+    }
+    .quick-info{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 50%;
+        justify-content: center;
+    }
+    .quick-paragraph{
+        margin: 20px 0 20px 0;
+    }
+    .featured-section{
+        margin: 0;
+    }
+    .featured{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn{
+        margin-top: 30px;
+        height: 100px;
+        width: 200px;
+    }
+    .btn span{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .some-fact{
+        margin: 10px 10px;
+        text-align: center;
+    }
+
+    .skill-section{
+        margin: 20px 30px;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+    }
+    .sponsors-logo{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /* .hide{
+        display: none;
+    } */
+    .footer-section{
+        margin: 0;
+    }
+    .footer-p{
+        padding: 10px 10px;
+    }
+    .form-section{
+        margin: 0;
+
+    }
+    .form{
+        padding: 5px 10px;
+    }
+}
